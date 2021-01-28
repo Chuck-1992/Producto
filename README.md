@@ -1,6 +1,6 @@
 # configuración del proyecto
 1.- Instalación de dependencias del proyecto con composer install
-2.- Cree un nuevo archivo en la carpeta ráiz llamado .env, luego copie todo el contenido de env.example dentro del archivo creado.
+2.- Cree un nuevo archivo en la carpeta ráiz llamado .env, luego copie todo el contenido de env.example dentro del archivo creado mediante la consola git bash con la siguiente línea de comando --- cp .env.example .env  ----
 3.- Crear una base de datos con el nombre ---- productos ------
 4.- Ejecutar el comando ---- php artisan migrate ----- para crear las migraciones
 5.- Ejecutar el comando ----- php artisan storage:link ----- para crear el acceso directo a la carpeta storage
